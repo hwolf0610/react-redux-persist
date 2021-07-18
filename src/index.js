@@ -60,8 +60,8 @@ class App extends React.Component {
 }
 
 const mapStateToProps = state => ({
-  text: state.form.text,
-  foo: state.form.foo,
+  text: state.inputform.text,
+  foo: state.inputform.foo,
 });
 
 const ConnectedApp = connect(mapStateToProps)(App);
